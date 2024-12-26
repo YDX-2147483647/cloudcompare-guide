@@ -6,7 +6,7 @@
 
 ```mermaid
 flowchart TB
-  src[数据源（MATLAB/NumPy）]
+  src[数据源（NumPy/MATLAB）]
   -->|导出| 合适格式的数据文件
   --> cc([用 CloudCompare 查看])
 ```
